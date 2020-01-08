@@ -1,0 +1,954 @@
+[
+    {
+        "name": "Calibrate the Kubernetes Cluster",
+        "points": 2,
+        "owner": "Heather",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-10",
+        "finishDate": "2019-07-10"
+    },
+    {
+        "name": "Reimplement the Cache",
+        "points": 5,
+        "owner": "Sam",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-09",
+        "finishDate": "2019-07-16"
+    },
+    {
+        "name": "Restore the Secret Store",
+        "points": 5,
+        "owner": "Heather",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-08",
+        "finishDate": "2019-07-10"
+    },
+    {
+        "name": "Calibrate the Feature Flag for B",
+        "points": 3,
+        "owner": "Heather",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-08",
+        "finishDate": "2019-07-08"
+    },
+    {
+        "name": "Address the Mongo Backend",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-08",
+        "finishDate": "2019-07-31"
+    },
+    {
+        "name": "Fix the Azure Configuration",
+        "points": 2,
+        "owner": "Sam",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-08",
+        "finishDate": "2019-07-09"
+    },
+    {
+        "name": "Fix the Neo4j Backend",
+        "points": 5,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-08",
+        "finishDate": "2019-07-12"
+    },
+    {
+        "name": "Address the Oracle",
+        "points": 13,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-07-08",
+        "workStartDate": "2019-07-08",
+        "finishDate": "2019-07-15"
+    },
+    {
+        "name": "Debug the Voice Assistant",
+        "points": 21,
+        "owner": "Heather",
+        "iterationStartDate": "2019-07-15",
+        "workStartDate": "2019-07-15",
+        "finishDate": "2019-07-26"
+    },
+    {
+        "name": "Reverse-engineer the Machine Learning",
+        "points": 3,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-07-15",
+        "workStartDate": "2019-07-15",
+        "finishDate": "2019-07-16"
+    },
+    {
+        "name": "Reimplement the Blockchain",
+        "points": 3,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-07-15",
+        "workStartDate": "2019-07-15",
+        "finishDate": "2019-07-16"
+    },
+    {
+        "name": "Reverse-engineer the Autocomplete",
+        "points": 21,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-07-22",
+        "workStartDate": "2019-07-22",
+        "finishDate": "2019-08-12"
+    },
+    {
+        "name": "Fix the Meme Generator",
+        "points": 5,
+        "owner": "Sam",
+        "iterationStartDate": "2019-07-22",
+        "workStartDate": "2019-07-22",
+        "finishDate": "2019-07-25"
+    },
+    {
+        "name": "Disable the Gargleblaster",
+        "points": 21,
+        "owner": "Sam",
+        "iterationStartDate": "2019-07-29",
+        "workStartDate": "2019-07-29",
+        "finishDate": "2019-08-20"
+    },
+    {
+        "name": "Hoist the Gargleblaster",
+        "points": 13,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-07-29",
+        "workStartDate": "2019-07-29",
+        "finishDate": "2019-08-02"
+    },
+    {
+        "name": "Make the Kubernetes Cluster",
+        "points": 2,
+        "owner": "Eli",
+        "iterationStartDate": "2019-08-05",
+        "workStartDate": "2019-08-06",
+        "finishDate": "2019-08-07"
+    },
+    {
+        "name": "Create the Azure Configuration",
+        "points": 5,
+        "owner": "Heather",
+        "iterationStartDate": "2019-08-05",
+        "workStartDate": "2019-08-05",
+        "finishDate": "2019-08-06"
+    },
+    {
+        "name": "Disable the Vue Frontend",
+        "points": 13,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-08-05",
+        "workStartDate": "2019-08-05",
+        "finishDate": "2019-08-08"
+    },
+    {
+        "name": "Make the AI",
+        "points": 2,
+        "owner": "Eli",
+        "iterationStartDate": "2019-08-05",
+        "workStartDate": "2019-08-05",
+        "finishDate": "2019-08-06"
+    },
+    {
+        "name": "Implement the gRPC Interface",
+        "points": 21,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-08-12",
+        "workStartDate": "2019-08-12",
+        "finishDate": "2019-08-22"
+    },
+    {
+        "name": "Make the Wormhole",
+        "points": 2,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-08-12",
+        "workStartDate": "2019-08-12",
+        "finishDate": "2019-08-12"
+    },
+    {
+        "name": "Manage the Postgres Backend",
+        "points": 3,
+        "owner": "Heather",
+        "iterationStartDate": "2019-08-12",
+        "workStartDate": "2019-08-12",
+        "finishDate": "2019-08-13"
+    },
+    {
+        "name": "Enable the Voice Assistant",
+        "points": 1,
+        "owner": "Heather",
+        "iterationStartDate": "2019-08-12",
+        "workStartDate": "2019-08-12",
+        "finishDate": "2019-08-12"
+    },
+    {
+        "name": "Engineer the Meme Generator",
+        "points": 8,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-08-12",
+        "workStartDate": "2019-08-12",
+        "finishDate": "2019-08-20"
+    },
+    {
+        "name": "Fix the Easter Egg",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-08-12",
+        "workStartDate": "2019-08-12",
+        "finishDate": "2019-08-30"
+    },
+    {
+        "name": "Reverse-engineer the User Profiles",
+        "points": 1,
+        "owner": "Sam",
+        "iterationStartDate": "2019-08-19",
+        "workStartDate": "2019-08-20",
+        "finishDate": "2019-08-21"
+    },
+    {
+        "name": "Implement the Easter Egg",
+        "points": 3,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-08-19",
+        "workStartDate": "2019-08-20",
+        "finishDate": "2019-08-22"
+    },
+    {
+        "name": "Address the Blockchain",
+        "points": 1,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-08-19",
+        "workStartDate": "2019-08-20",
+        "finishDate": "2019-08-20"
+    },
+    {
+        "name": "Upgrade the Postgres Backend",
+        "points": 21,
+        "owner": "Heather",
+        "iterationStartDate": "2019-08-19",
+        "workStartDate": "2019-08-19",
+        "finishDate": "2019-09-02"
+    },
+    {
+        "name": "Reverse-engineer the Kafka Backend",
+        "points": 21,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-08-26",
+        "workStartDate": "2019-08-27",
+        "finishDate": "2019-09-12"
+    },
+    {
+        "name": "Rejigger the Database Schema",
+        "points": 3,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-08-26",
+        "workStartDate": "2019-08-27",
+        "finishDate": "2019-08-28"
+    },
+    {
+        "name": "Enable the Wormhole",
+        "points": 5,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-08-26",
+        "workStartDate": "2019-08-26",
+        "finishDate": "2019-08-27"
+    },
+    {
+        "name": "Find the Blockchain",
+        "points": 2,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-08-26",
+        "workStartDate": "2019-08-26",
+        "finishDate": "2019-08-27"
+    },
+    {
+        "name": "Manage the Default Configuration",
+        "points": 5,
+        "owner": "Sam",
+        "iterationStartDate": "2019-08-26",
+        "workStartDate": "2019-08-26",
+        "finishDate": "2019-09-02"
+    },
+    {
+        "name": "Hoist the Easter Egg",
+        "points": 5,
+        "owner": "Sam",
+        "iterationStartDate": "2019-09-02",
+        "workStartDate": "2019-09-03",
+        "finishDate": "2019-09-09"
+    },
+    {
+        "name": "Reimplement the Blockchain",
+        "points": 1,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-02",
+        "workStartDate": "2019-09-02",
+        "finishDate": "2019-09-03"
+    },
+    {
+        "name": "Debug the User Profiles",
+        "points": 1,
+        "owner": "Sam",
+        "iterationStartDate": "2019-09-02",
+        "workStartDate": "2019-09-02",
+        "finishDate": "2019-09-03"
+    },
+    {
+        "name": "Hoist the Gargleblaster",
+        "points": 5,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-02",
+        "workStartDate": "2019-09-02",
+        "finishDate": "2019-09-04"
+    },
+    {
+        "name": "Upgrade the jQuery Frontend",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-09-02",
+        "workStartDate": "2019-09-02",
+        "finishDate": "2019-09-16"
+    },
+    {
+        "name": "Address the Gargleblaster",
+        "points": 2,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-13",
+        "finishDate": "2019-09-13"
+    },
+    {
+        "name": "Disable the Neo4j Backend",
+        "points": 1,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-12",
+        "finishDate": "2019-09-13"
+    },
+    {
+        "name": "Make the Feature Flag for A",
+        "points": 8,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-12",
+        "finishDate": "2019-09-17"
+    },
+    {
+        "name": "Rejigger the Default Configuration",
+        "points": 3,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-12",
+        "finishDate": "2019-09-13"
+    },
+    {
+        "name": "Engineer the Voice Assistant",
+        "points": 1,
+        "owner": "Sam",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-12",
+        "finishDate": "2019-09-16"
+    },
+    {
+        "name": "Fix the Meme Generator",
+        "points": 3,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-11",
+        "finishDate": "2019-09-12"
+    },
+    {
+        "name": "Hoist the Postgres Backend",
+        "points": 8,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-10",
+        "finishDate": "2019-09-12"
+    },
+    {
+        "name": "Reimplement the AI",
+        "points": 5,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-09",
+        "finishDate": "2019-09-11"
+    },
+    {
+        "name": "Hoist the REST Interface",
+        "points": 3,
+        "owner": "Sam",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-09",
+        "finishDate": "2019-09-12"
+    },
+    {
+        "name": "Find the Cache",
+        "points": 5,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-09",
+        "workStartDate": "2019-09-09",
+        "finishDate": "2019-09-10"
+    },
+    {
+        "name": "Update the Postgres Backend",
+        "points": 8,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-16",
+        "workStartDate": "2019-09-18",
+        "finishDate": "2019-09-24"
+    },
+    {
+        "name": "Address the Default Configuration",
+        "points": 2,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-09-16",
+        "workStartDate": "2019-09-17",
+        "finishDate": "2019-09-18"
+    },
+    {
+        "name": "Deploy the Wormhole",
+        "points": 13,
+        "owner": "Eli",
+        "iterationStartDate": "2019-09-16",
+        "workStartDate": "2019-09-16",
+        "finishDate": "2019-09-24"
+    },
+    {
+        "name": "Hoist the Azure Configuration",
+        "points": 13,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-16",
+        "workStartDate": "2019-09-16",
+        "finishDate": "2019-09-23"
+    },
+    {
+        "name": "Disable the Wormhole",
+        "points": 8,
+        "owner": "Sam",
+        "iterationStartDate": "2019-09-16",
+        "workStartDate": "2019-09-16",
+        "finishDate": "2019-09-26"
+    },
+    {
+        "name": "Reimplement the Machine Learning",
+        "points": 5,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-16",
+        "workStartDate": "2019-09-16",
+        "finishDate": "2019-09-18"
+    },
+    {
+        "name": "Find the gRPC Interface",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-09-23",
+        "workStartDate": "2019-09-25",
+        "finishDate": "2019-10-04"
+    },
+    {
+        "name": "Calibrate the REST Interface",
+        "points": 8,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-23",
+        "workStartDate": "2019-09-24",
+        "finishDate": "2019-09-26"
+    },
+    {
+        "name": "Reimplement the Secret Store",
+        "points": 2,
+        "owner": "Eli",
+        "iterationStartDate": "2019-09-23",
+        "workStartDate": "2019-09-24",
+        "finishDate": "2019-09-25"
+    },
+    {
+        "name": "Enable the Neo4j Backend",
+        "points": 13,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-23",
+        "workStartDate": "2019-09-23",
+        "finishDate": "2019-09-26"
+    },
+    {
+        "name": "Reverse-engineer the Voice Assistant",
+        "points": 13,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-09-23",
+        "workStartDate": "2019-09-23",
+        "finishDate": "2019-10-02"
+    },
+    {
+        "name": "Rejigger the Meme Generator",
+        "points": 21,
+        "owner": "Sam",
+        "iterationStartDate": "2019-09-30",
+        "workStartDate": "2019-10-02",
+        "finishDate": "2019-10-24"
+    },
+    {
+        "name": "Debug the Feature Flag for A",
+        "points": 3,
+        "owner": "Sam",
+        "iterationStartDate": "2019-09-30",
+        "workStartDate": "2019-09-30",
+        "finishDate": "2019-10-02"
+    },
+    {
+        "name": "Enable the Neo4j Backend",
+        "points": 8,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-09-30",
+        "workStartDate": "2019-09-30",
+        "finishDate": "2019-10-03"
+    },
+    {
+        "name": "Engineer the S3 Connector",
+        "points": 13,
+        "owner": "Heather",
+        "iterationStartDate": "2019-09-30",
+        "workStartDate": "2019-09-30",
+        "finishDate": "2019-10-04"
+    },
+    {
+        "name": "Debug the Default Configuration",
+        "points": 21,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-10-07",
+        "workStartDate": "2019-10-08",
+        "finishDate": "2019-10-21"
+    },
+    {
+        "name": "Manage the Feature Flag for B",
+        "points": 5,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-10-07",
+        "workStartDate": "2019-10-07",
+        "finishDate": "2019-10-08"
+    },
+    {
+        "name": "Reimplement the Postgres Backend",
+        "points": 2,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-07",
+        "workStartDate": "2019-10-07",
+        "finishDate": "2019-10-08"
+    },
+    {
+        "name": "Debug the Meme Generator",
+        "points": 3,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-07",
+        "workStartDate": "2019-10-07",
+        "finishDate": "2019-10-07"
+    },
+    {
+        "name": "Calibrate the Easter Egg",
+        "points": 8,
+        "owner": "Heather",
+        "iterationStartDate": "2019-10-07",
+        "workStartDate": "2019-10-07",
+        "finishDate": "2019-10-11"
+    },
+    {
+        "name": "Deploy the S3 Connector",
+        "points": 13,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-10-07",
+        "workStartDate": "2019-10-07",
+        "finishDate": "2019-10-14"
+    },
+    {
+        "name": "Calibrate the Hyperdrive",
+        "points": 3,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-14",
+        "workStartDate": "2019-10-15",
+        "finishDate": "2019-10-16"
+    },
+    {
+        "name": "Backup the Wormhole",
+        "points": 5,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-14",
+        "workStartDate": "2019-10-14",
+        "finishDate": "2019-10-15"
+    },
+    {
+        "name": "Manage the Kafka Backend",
+        "points": 13,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-10-14",
+        "workStartDate": "2019-10-14",
+        "finishDate": "2019-10-18"
+    },
+    {
+        "name": "Fix the Cache",
+        "points": 21,
+        "owner": "Heather",
+        "iterationStartDate": "2019-10-14",
+        "workStartDate": "2019-10-14",
+        "finishDate": "2019-10-29"
+    },
+    {
+        "name": "Reverse-engineer the CLI Frontend",
+        "points": 2,
+        "owner": "Sam",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-24",
+        "finishDate": "2019-10-25"
+    },
+    {
+        "name": "Rejigger the Mongo Backend",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-22",
+        "finishDate": "2019-10-29"
+    },
+    {
+        "name": "Retest the Gargleblaster",
+        "points": 8,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-22",
+        "finishDate": "2019-10-28"
+    },
+    {
+        "name": "Debug the Default Configuration",
+        "points": 3,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-21",
+        "finishDate": "2019-10-22"
+    },
+    {
+        "name": "Make the Feature Flag for A",
+        "points": 1,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-21",
+        "finishDate": "2019-10-21"
+    },
+    {
+        "name": "Reverse-engineer the Cache",
+        "points": 3,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-21",
+        "finishDate": "2019-10-21"
+    },
+    {
+        "name": "Fix the User Profiles",
+        "points": 3,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-21",
+        "finishDate": "2019-10-22"
+    },
+    {
+        "name": "Hoist the Wormhole",
+        "points": 13,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-10-21",
+        "workStartDate": "2019-10-21",
+        "finishDate": "2019-10-28"
+    },
+    {
+        "name": "Disable the Vue Frontend",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-10-28",
+        "workStartDate": "2019-10-29",
+        "finishDate": "2019-11-06"
+    },
+    {
+        "name": "Engineer the Autocomplete",
+        "points": 13,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-10-28",
+        "workStartDate": "2019-10-28",
+        "finishDate": "2019-11-05"
+    },
+    {
+        "name": "Implement the Oracle",
+        "points": 13,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-10-28",
+        "workStartDate": "2019-10-28",
+        "finishDate": "2019-11-05"
+    },
+    {
+        "name": "Rejigger the Voice Assistant",
+        "points": 13,
+        "owner": "Sam",
+        "iterationStartDate": "2019-10-28",
+        "workStartDate": "2019-10-28",
+        "finishDate": "2019-11-11"
+    },
+    {
+        "name": "Reverse-engineer the Autocomplete",
+        "points": 2,
+        "owner": null,
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": null,
+        "finishDate": null
+    },
+    {
+        "name": "Disable the Wormhole",
+        "points": 13,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-08",
+        "finishDate": "2019-11-15"
+    },
+    {
+        "name": "Reverse-engineer the Blockchain",
+        "points": 1,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-08",
+        "finishDate": "2019-11-08"
+    },
+    {
+        "name": "Address the User Profiles",
+        "points": 5,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-07",
+        "finishDate": "2019-11-11"
+    },
+    {
+        "name": "Debug the Autocomplete",
+        "points": 8,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-07",
+        "finishDate": "2019-11-11"
+    },
+    {
+        "name": "Rejigger the Blockchain",
+        "points": 3,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-06",
+        "finishDate": "2019-11-08"
+    },
+    {
+        "name": "Retest the Vue Frontend",
+        "points": 3,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-06",
+        "finishDate": "2019-11-07"
+    },
+    {
+        "name": "Create the Meme Generator",
+        "points": 8,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-05",
+        "finishDate": "2019-11-11"
+    },
+    {
+        "name": "Address the User Profiles",
+        "points": 3,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-05",
+        "finishDate": "2019-11-07"
+    },
+    {
+        "name": "Upgrade the Quantum Speedup",
+        "points": 8,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-04",
+        "workStartDate": "2019-11-04",
+        "finishDate": "2019-11-06"
+    },
+    {
+        "name": "Disable the CLI Frontend",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-11",
+        "workStartDate": "2019-11-11",
+        "finishDate": "2019-11-18"
+    },
+    {
+        "name": "Disable the Secret Store",
+        "points": 13,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-11-11",
+        "workStartDate": "2019-11-11",
+        "finishDate": "2019-11-15"
+    },
+    {
+        "name": "Fix the User Profiles",
+        "points": 21,
+        "owner": "Sam",
+        "iterationStartDate": "2019-11-11",
+        "workStartDate": "2019-11-11",
+        "finishDate": null
+    },
+    {
+        "name": "Update the Wormhole",
+        "points": 21,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-19",
+        "finishDate": "2019-11-25"
+    },
+    {
+        "name": "Deploy the REST Interface",
+        "points": 2,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-19",
+        "finishDate": "2019-11-19"
+    },
+    {
+        "name": "Reimplement the Easter Egg",
+        "points": 3,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-19",
+        "finishDate": "2019-11-19"
+    },
+    {
+        "name": "Address the REST Interface",
+        "points": 13,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-19",
+        "finishDate": "2019-11-25"
+    },
+    {
+        "name": "Disable the Machine Learning",
+        "points": 3,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-19"
+    },
+    {
+        "name": "Reimplement the User Profiles",
+        "points": 1,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-18"
+    },
+    {
+        "name": "Reimplement the S3 Connector",
+        "points": 1,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-18"
+    },
+    {
+        "name": "Calibrate the Hyperdrive",
+        "points": 3,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-19"
+    },
+    {
+        "name": "Manage the Hyperdrive",
+        "points": 2,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-19"
+    },
+    {
+        "name": "Update the Hyperdrive",
+        "points": 1,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-18"
+    },
+    {
+        "name": "Reverse-engineer the Feature Flag for A",
+        "points": 2,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-18"
+    },
+    {
+        "name": "Upgrade the S3 Connector",
+        "points": 13,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-11-18",
+        "workStartDate": "2019-11-18",
+        "finishDate": "2019-11-22"
+    },
+    {
+        "name": "Reverse-engineer the React Frontend",
+        "points": 13,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-27",
+        "finishDate": "2019-11-29"
+    },
+    {
+        "name": "Disable the gRPC Interface",
+        "points": 2,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-26",
+        "finishDate": "2019-11-27"
+    },
+    {
+        "name": "Calibrate the REST Interface",
+        "points": 21,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-26",
+        "finishDate": null
+    },
+    {
+        "name": "Find the Feature Flag for B",
+        "points": 3,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-26",
+        "finishDate": "2019-11-27"
+    },
+    {
+        "name": "Address the CLI Frontend",
+        "points": 3,
+        "owner": "Kensie",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-25",
+        "finishDate": "2019-11-26"
+    },
+    {
+        "name": "Address the CLI Frontend",
+        "points": 13,
+        "owner": "Eli",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-25",
+        "finishDate": "2019-11-27"
+    },
+    {
+        "name": "Retest the Neo4j Backend",
+        "points": 2,
+        "owner": "Heather",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-25",
+        "finishDate": "2019-11-26"
+    },
+    {
+        "name": "Backup the jQuery Frontend",
+        "points": 5,
+        "owner": "Rachel",
+        "iterationStartDate": "2019-11-25",
+        "workStartDate": "2019-11-25",
+        "finishDate": "2019-11-26"
+    }
+]

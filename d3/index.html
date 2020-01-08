@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<body>
+    <div style="position:absolute;">
+        <button id="first">1</button>
+        <button id="second">2</button>
+        <button id="third">3</button>
+    </div>
+    <div>
+        <svg></svg>
+    </div>
+</body>
+<script src="d3.v5.min.js"></script>
+<script>
+
+var width = window.innerWidth,
+    height = window.innerHeight
+    positionStrength = 0.025;
+
+var margin = {
+  top: 50,
+  left: 100,
+  bottom: 50,
+  right: 50
+}
+
+xAxisTransform = null;
+
+var simulation = d3.forceSimulation()
+  .alphaDecay(1 - (0.001**(1 / 600)))
+  .force("charge", d3.forceManyBody().distanceMax(20).strength(-15))
+  .force("collide", d3.forceCollide().radius(5))
+  .force("center", d3.forceCenter( width / 2, height / 2));
+
+var currentStroke = "none";
+var currentFill = "steelblue";
+var y = null;
+var x = null;
+
+d3.json("workitems.json").then(function(workitems) {
+  workitems.forEach(d => d.iterationStartDate = d3.isoParse(d.iterationStartDate))
+  workitems.forEach(d => d.workStartDate = d3.isoParse(d.workStartDate))
+  workitems.forEach(d => d.finishDate = d3.isoParse(d.finishDate))
+
+  svg = d3.selectAll('svg')
+    .attr("width", width)
+    .attr("height", height);
+
+  simulation
+    .nodes(workitems)
+    .on("tick", updateDOM);
+
+  function updateDOM() {
+    let dots = svg.selectAll('circle').data(workitems);
+    dots.enter()
+        .append('circle')
+        .style("stroke", currentStroke)
+        .style("fill", currentFill)
+        .attr("r", 5);
+
+    dots
+      .attr("cx", d => d.x)
+      .attr("cy", d => d.y)
+
+    let xaxis = d3.axisBottom(x ? x : d3.scaleLinear())
+    let xAxisG = svg.selectAll('g.xaxis').data(x ? [0] : [])
+    xAxisG.enter()
+        .append('g')
+        .classed('xaxis', true)
+        .call(xaxis)
+        .style("opacity", 0)
+        .attr("transform", `translate(0,${xAxisTransform})`)
+        .transition()
+          .delay(500)
+          .duration(750)
+          .style("opacity", 1);
+    xAxisG.exit().remove();
+
+    let yaxis = d3.axisLeft(y ? y : d3.scaleLinear())
+      .tickFormat(d3.timeFormat("Sprint %B %d"));
+
+    let yAxisG = svg.selectAll('g.yaxis').data(y ? [0] : [])
+    yAxisG.enter()
+        .append('g')
+        .classed('yaxis', true)
+        .call(yaxis)
+        .style("opacity", 0)
+        .attr("transform", `translate(${margin.left}, 0)`)
+        .transition()
+          .delay(500)
+          .duration(750)
+          .style("opacity", 1);
+    yAxisG.exit().remove();
+  }
+
+  document.getElementById("first").onclick = function() {
+    x = d3.scaleTime()
+      .domain(d3.extent(workitems, d => d.finishDate))
+      .range([margin.left, width - margin.right]);
+
+
+    y = null;
+
+    simulation
+      .force("charge", d3.forceManyBody().distanceMax(20).strength(-15))
+      .force("center", null)
+      .force("x", d3.forceX(d => x(d.finishDate)).strength(positionStrength))
+      .force("y", d3.forceY(height / 2).strength(positionStrength))
+      .alpha(1)
+      .restart();
+
+    xAxisTransform = height / 2 + 50;
+    svg.selectAll('g.xaxis')
+      .transition()
+        .duration(500)
+        .attr("transform", `translate(0, ${xAxisTransform})`);
+  };
+
+  document.getElementById("second").onclick = function() {
+    x = d3.scaleTime()
+      .domain(d3.extent(workitems, d => d.finishDate))
+      .range([margin.left, width - margin.right]);
+
+    let dates = workitems.map(d => d.iterationStartDate);
+    var uniqueDates = [];
+    for (var i = 0; i < dates.length; i++) {
+      if (!isDateInArray(dates[i], uniqueDates)) {
+        uniqueDates.push(dates[i]);
+      }
+    }
+
+    uniqueDates.sort((a,b) => a-b);
+    y = d3.scalePoint()
+      .domain(uniqueDates)
+      .range([height - margin.bottom, margin.top])
+      .padding(1);
+
+    simulation
+      .force("charge", null)
+      .force("center", null)
+      .force("x", d3.forceX(d => x(d.finishDate)).strength(positionStrength))
+      .force("y", d3.forceY(d => y(d.iterationStartDate)).strength(positionStrength))
+      .alpha(2)
+      .restart();
+
+    xAxisTransform = height - margin.bottom;
+    svg.selectAll('g.xaxis')
+      .transition()
+        .duration(500)
+        .attr("transform", `translate(0, ${xAxisTransform})`);
+  };
+
+  document.getElementById("third").onclick = function() {
+    let dates = workitems.map(d => d.iterationStartDate);
+    var uniqueDates = [];
+    for (var i = 0; i < dates.length; i++) {
+      if (!isDateInArray(dates[i], uniqueDates)) {
+        uniqueDates.push(dates[i]);
+      }
+    }
+    uniqueDates.sort((a,b) => a-b);
+
+    colorScale = d3.scaleOrdinal()
+      .domain(uniqueDates)
+      .range(d3.schemeCategory10);
+
+    let currentFill = (d) => colorScale(d.iterationStartDate);
+
+    svg.selectAll('circle').data(workitems)
+      .transition()
+      .duration(750)
+      .style("fill", currentFill);
+  };
+});
+
+function isDateInArray(needle, haystack) {
+  for (var i = 0; i < haystack.length; i++) {
+    if (needle.getTime() === haystack[i].getTime()) {
+      return true;
+    }
+  }
+  return false;
+}
+
+</script>

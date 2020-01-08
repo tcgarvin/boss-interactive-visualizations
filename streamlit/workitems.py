@@ -21,7 +21,7 @@ show_details = st.sidebar.checkbox("Show more details")
 
 #Filter data to what we're looking for
 all_owners = df.owner.unique().tolist()
-chosen_owners = st.multiselect("Developers to display", all_owners, ['Eli'])
+chosen_owners = st.multiselect("Developers to display", all_owners, ['Kensie'])
 show_all_owners = st.checkbox("Show all developers (overrides selection)")
 
 if show_all_owners:
